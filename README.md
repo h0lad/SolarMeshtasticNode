@@ -1,10 +1,8 @@
 **Warning:** 
 
-This thing will get a big overhaul (better access to bus interfaces, improved outlines, etc.) as soon as the new TI BQ25630 charging controller will be released end of the year.  
+This thing will get a big overhaul (better access to bus interfaces, improved outlines, etc.) as soon as the new TI BQ25630 charging controller will be released end of the year.  The design will be much less complex  as we can get all power relevant data (solar/battery voltage, currents) by just querying the charger IC via I2C. Also the BOM will be much compacter as no voltage dividers will be need.. not even talking of the annoying transistors for the LED stuff.
 
-The design will be much less complex  as we can get all power relevant data (solar/battery voltage, currents) by just querying the charger IC via I2C. 
-
-Also the BOM will be much compacter as no voltage dividers will be need.
+Likely I will start a new GitHub project to also get rid of the trade-protected "Meshtastic" name (although they have friendly rules where it can be used). Expect this project to be "archived" by then.
 
 ---
 
