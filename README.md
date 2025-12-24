@@ -86,13 +86,15 @@ I'm keeping a more or less outdated branch von the Meshtastic firmware on `git@g
 
 *The HT-CT62 uses a ESP32C3. Thats not Low Power!!!*
 
-Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   device stays  in the light sleep mode until it gets a interrupt signal from the LoRa modem. In that phase CPU will consume around ~800uA while sleeping. Including LoRa RX that's a idle current draw around is 5-6mA.
+Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   device stays  in the light sleep mode until it gets a interrupt signal from the LoRa modem. In that phase CPU will consume around ~800uA while sleeping.  
+
+Permanent active LoRa RX from the Semtech modem will always cause a permanent consumption of 7-8mA. Not even a STM32 or Nordic can get rid of this. 
+
+Much less power consumption could be achieved in a sensor scenario where permanent RX is not required: there the worst-case is most likely determined by the current draw of the sleeping microcontroller.
 
 Warning, again: switching on BLE or even Wifi will make the ESP32 burn a crazy amount of energy. 
 
 For sunny regions (Portugal, Spain, etc.) a 6V panel is enough. For central Europe (like Germany) a 12V or higher solar panel is recommended for surviving the winter.
-
-Still far away from the RAK4631 with a Nordic microcontroller. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery even with small cells.
 
 *It's not really that cheap either!*
 
