@@ -2,7 +2,7 @@
 
 The successor of this project is now in its very early development stages: [LoRaPowerBox](https://github.com/h0lad/LoRaPowerBox).
 
-There is also a miniaturized version of this PCB: [SolarMeshtasticNodeMini]([https://github.com/h0lad/LoRaPowerBox)](https://github.com/h0lad/SolarMeshtasticNodeMini).
+There is also a miniaturized version of this PCB: [SolarMeshtasticNodeMini](https://github.com/h0lad/SolarMeshtasticNodeMini)
 
 ---
 
