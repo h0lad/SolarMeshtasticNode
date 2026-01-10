@@ -1,10 +1,3 @@
-**Informations:** 
-
-The successor of this project is now in its very early development stages: [LoRaPowerBox](https://github.com/h0lad/LoRaPowerBox).
-
-There is also a miniaturized version of this PCB: [SolarMeshtasticNodeMini](https://github.com/h0lad/SolarMeshtasticNodeMini).
-
----
 
 ![MeshtasticRouterNode](pictures/MeshtasticNode_BQ25185.jpg)
 
@@ -25,6 +18,14 @@ Features of this PCB
  - Brown-out Reset IC ([Diodes Incorporated APX803L05-32SA-7](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Diodes-Incorporated-APX803L05-32SA-7_C2067928.pdf)) at 3.2V which senses the voltage *before* the LDO 
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
+
+
+**Informations:** 
+
+The successor of this project is now in its very early development stages: [LoRaPowerBox](https://github.com/h0lad/LoRaPowerBox).
+
+There is also a miniaturized version of this PCB: [SolarMeshtasticNodeMini](https://github.com/h0lad/SolarMeshtasticNodeMini).
+
 
 ## Physical Dimensions
 
