@@ -26,10 +26,6 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
-*If you want to use the Reset IC*
-
-Do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
-
 ## Physical Dimensions
 
 The size of the PCB is 68mm x 87mm and is planned around following [Box (120x90x70)](https://de.aliexpress.com/item/1005005859929902.html). 
