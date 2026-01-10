@@ -29,7 +29,7 @@ There is also a miniaturized version of this PCB: [SolarMeshtasticNodeMini](http
 
 ## Physical Dimensions
 
-The size of the PCB is 68mm x 87mm and is planned around following [Box (120x90x70)](https://de.aliexpress.com/item/1005005859929902.html). 
+The size of the PCB is 66.85 mm x 87mm and is planned around following [Box (120x90x70)](https://de.aliexpress.com/item/1005005859929902.html). 
 
 # Where can I get all the stuff?
 
