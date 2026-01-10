@@ -14329,7 +14329,7 @@
 		)
 	)
 	(gr_text "SolarMeshtasticNode\nJoin Us!"
-		(at 164.25 120.3 0)
+		(at 163.3 120.3 0)
 		(layer "F.SilkS")
 		(uuid "49bbf225-f549-4f67-be5f-fdb301bbee49")
 		(effects
