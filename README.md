@@ -20,7 +20,7 @@ Features of this PCB
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
 
-**Informations:** 
+**Info** 
 
 The successor of this project is now in its very early development stages: [LoRaPowerBox](https://github.com/h0lad/LoRaPowerBox).
 
