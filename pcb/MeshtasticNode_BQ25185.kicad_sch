@@ -678,6 +678,17 @@
 					)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
@@ -1689,215 +1700,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:MMBT2222A"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT2222A"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MMBT2222A_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MMBT2222A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4095,6 +3897,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 229.87) (xy 48.26 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122988f8-ecea-440c-a54f-51e49effce74")
+	)
+	(wire
+		(pts
 			(xy 50.8 55.88) (xy 34.29 55.88)
 		)
 		(stroke
@@ -4205,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 204.47) (xy 48.26 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263726f5-232e-4317-a434-81ff8063cd75")
+	)
+	(wire
+		(pts
 			(xy 312.42 85.09) (xy 311.15 85.09)
 		)
 		(stroke
@@ -4222,6 +4044,26 @@
 			(type default)
 		)
 		(uuid "2b9d5e10-9bca-4da9-b894-20ae71ad700b")
+	)
+	(wire
+		(pts
+			(xy 31.75 229.87) (xy 36.83 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9d761b-fc66-49e8-ba61-320ae00d2e75")
+	)
+	(wire
+		(pts
+			(xy 31.75 204.47) (xy 36.83 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30011b93-da77-4615-8d30-bda60b86ca46")
 	)
 	(wire
 		(pts
@@ -4305,16 +4147,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 209.55) (xy 53.34 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a1c08b-240e-4415-8a4f-8b0a8d4e4217")
-	)
-	(wire
-		(pts
 			(xy 200.66 68.58) (xy 200.66 73.66)
 		)
 		(stroke
@@ -4372,6 +4204,16 @@
 			(type default)
 		)
 		(uuid "51f1130a-8be3-4597-956f-6ef027f736b3")
+	)
+	(wire
+		(pts
+			(xy 55.88 204.47) (xy 59.69 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55721d60-3ad3-4c71-8365-20211dc41833")
 	)
 	(wire
 		(pts
@@ -4475,16 +4317,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 220.98) (xy 53.34 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66888463-431f-47d3-94b7-eb88f77007e5")
-	)
-	(wire
-		(pts
 			(xy 40.64 133.35) (xy 52.07 133.35)
 		)
 		(stroke
@@ -4555,16 +4387,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 220.98) (xy 59.69 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74667665-812a-4467-b325-bf6a6f41765c")
-	)
-	(wire
-		(pts
 			(xy 312.42 31.75) (xy 312.42 34.29)
 		)
 		(stroke
@@ -4572,26 +4394,6 @@
 			(type default)
 		)
 		(uuid "7829e9a9-892b-4973-8dec-69b501c20e0d")
-	)
-	(wire
-		(pts
-			(xy 77.47 220.98) (xy 81.28 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e9b863-ac6a-498d-b0a3-f011fd0a8b5a")
-	)
-	(wire
-		(pts
-			(xy 53.34 199.39) (xy 53.34 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9bf9d4-fac9-41da-a3a8-67ed00b7ead3")
 	)
 	(wire
 		(pts
@@ -4622,16 +4424,6 @@
 			(type default)
 		)
 		(uuid "80aac795-67dd-48d8-a25d-eea21f3196b5")
-	)
-	(wire
-		(pts
-			(xy 53.34 234.95) (xy 53.34 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8233d3b3-20be-4c60-ba71-a9efbe10d43d")
 	)
 	(wire
 		(pts
@@ -4845,6 +4637,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 229.87) (xy 59.69 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f1c8c8-91ec-494b-9544-c871a5c2e6fc")
+	)
+	(wire
+		(pts
 			(xy 180.34 83.82) (xy 182.88 83.82)
 		)
 		(stroke
@@ -4972,16 +4774,6 @@
 			(type default)
 		)
 		(uuid "c13b6d18-5cfb-42d6-a9cc-008e8bb4ee60")
-	)
-	(wire
-		(pts
-			(xy 67.31 220.98) (xy 69.85 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c39412cf-2ed6-4568-9b52-f404dd284523")
 	)
 	(wire
 		(pts
@@ -5145,26 +4937,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 195.58) (xy 68.58 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73dcf63-b2d6-4066-92b7-3549d96ef2b6")
-	)
-	(wire
-		(pts
-			(xy 76.2 195.58) (xy 81.28 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8f3167b-057a-4d6b-9c3f-a42f667fd450")
-	)
-	(wire
-		(pts
 			(xy 143.51 140.97) (xy 143.51 144.78)
 		)
 		(stroke
@@ -5172,16 +4944,6 @@
 			(type default)
 		)
 		(uuid "da220d30-6885-4c67-b906-be857fc8c322")
-	)
-	(wire
-		(pts
-			(xy 31.75 229.87) (xy 35.56 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dafbc793-4efc-436b-baf4-b51ca20973f1")
 	)
 	(wire
 		(pts
@@ -5202,16 +4964,6 @@
 			(type default)
 		)
 		(uuid "dbad167b-8fb2-44e5-aac0-c84ac7aacb7c")
-	)
-	(wire
-		(pts
-			(xy 31.75 204.47) (xy 35.56 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9a3245-2cd5-48cb-a9dd-20d0e36f2675")
 	)
 	(wire
 		(pts
@@ -5315,26 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 204.47) (xy 45.72 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d6fe11-fc36-4caf-86af-4a2c9444cee7")
-	)
-	(wire
-		(pts
-			(xy 53.34 195.58) (xy 58.42 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f641c4c5-d3bd-4eef-81a1-2419881fa421")
-	)
-	(wire
-		(pts
 			(xy 118.11 166.37) (xy 118.11 171.45)
 		)
 		(stroke
@@ -5352,16 +5084,6 @@
 			(type default)
 		)
 		(uuid "fc066ac9-53c9-466a-91c4-2c4886ee37d6")
-	)
-	(wire
-		(pts
-			(xy 43.18 229.87) (xy 45.72 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feaa7dc7-8e79-483e-9cdc-3c590bd8b1b9")
 	)
 	(wire
 		(pts
@@ -5514,7 +5236,7 @@
 		(uuid "40687d86-94f8-4d65-b8bc-57c613d3401c")
 	)
 	(label "+3V3"
-		(at 81.28 195.58 0)
+		(at 59.69 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5486,7 @@
 		(uuid "a8246fd9-4bd4-47d8-b010-266a742052a5")
 	)
 	(label "+3V3"
-		(at 81.28 220.98 0)
+		(at 59.69 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6880,86 +6602,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 220.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a100945-f06c-40dc-a278-813ed1f9be90")
-		(property "Reference" "R8"
-			(at 63.5 214.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 63.5 217.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 219.202 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9bfe6321-b59c-49c6-bb44-f6eaaf931e70")
-		)
-		(pin "1"
-			(uuid "72feed0c-931a-4f03-93ee-42ccbc7ebeb9")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 140.97 35.56 180)
 		(unit 1)
@@ -7501,162 +7143,6 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 237.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ddf92fc-0957-4be6-a01d-a1d86173119d")
-		(property "Reference" "#PWR017"
-			(at 53.34 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 242.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7eb191d-a53c-435e-a801-f66b82a40ac4")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f17dd71-9a6e-4372-b69c-13c31d513e2b")
-		(property "Reference" "#PWR02"
-			(at 53.34 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 217.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cee69e23-b6fb-4a2d-ad36-b49ebc46e454")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8208,94 +7694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 50.8 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5043e51e-8cc5-47ca-9727-6f14c2c52703")
-		(property "Reference" "Q2"
-			(at 55.88 228.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 55.88 231.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 55.88 231.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 50.8 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 50.8 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0b9eb371-4951-4983-8cb8-a6b45c3375d4")
-		)
-		(pin "2"
-			(uuid "c6d2c01a-1f36-44ed-8033-7568e9902891")
-		)
-		(pin "1"
-			(uuid "204e79e6-580b-47f0-9baa-8ec2325cd3b9")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 135.89 270)
 		(unit 1)
@@ -8639,94 +8037,6 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 50.8 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cf69bdf-00c1-4062-9854-ef85fb2b48b0")
-		(property "Reference" "Q1"
-			(at 55.88 203.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 55.88 205.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 55.88 206.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 50.8 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 50.8 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "163c2b7b-d56d-4dc9-8443-b4052fcb6d15")
-		)
-		(pin "2"
-			(uuid "bfda05d8-d46d-44a1-a621-1e53b33a1d70")
-		)
-		(pin "1"
-			(uuid "aee9257b-55d9-4822-9480-1ece811de75e")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9092,7 +8402,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 229.87 270)
+		(at 52.07 229.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9103,7 +8413,7 @@
 		(fields_autoplaced yes)
 		(uuid "691b0c71-6e1f-4d2f-8ca6-a635490d1a07")
 		(property "Reference" "R7"
-			(at 39.37 223.52 90)
+			(at 52.07 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9112,8 +8422,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 39.37 226.06 90)
+		(property "Value" "1.2k"
+			(at 52.07 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9123,7 +8433,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 39.37 228.092 90)
+			(at 52.07 228.092 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 229.87 0)
+			(at 52.07 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +8455,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 229.87 0)
+			(at 52.07 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9254,7 +8564,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 220.98 0)
+		(at 40.64 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9264,7 +8574,7 @@
 		(dnp no)
 		(uuid "71f04e97-7ffc-40fb-b50f-babfcaba9df8")
 		(property "Reference" "D3"
-			(at 72.0726 224.79 90)
+			(at 39.0526 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9275,7 +8585,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5326 224.79 90)
+			(at 36.5126 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9286,7 +8596,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 73.66 220.98 0)
+			(at 40.64 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9297,7 +8607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 220.98 0)
+			(at 40.64 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,7 +8618,18 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 220.98 0)
+			(at 40.64 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9608,7 +8929,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 204.47 270)
+		(at 52.07 204.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9619,7 +8940,7 @@
 		(fields_autoplaced yes)
 		(uuid "86fb2dd2-21cc-46f5-aa5c-3394792d2329")
 		(property "Reference" "R5"
-			(at 39.37 198.12 90)
+			(at 52.07 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9628,8 +8949,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 39.37 200.66 90)
+		(property "Value" "1.2k"
+			(at 52.07 200.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9639,7 +8960,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 39.37 202.692 90)
+			(at 52.07 202.692 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9650,7 +8971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 204.47 0)
+			(at 52.07 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +8982,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 204.47 0)
+			(at 52.07 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,85 +11851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 62.23 195.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d76342d4-7169-49e3-bd7d-5477533c8827")
-		(property "Reference" "R1"
-			(at 60.96 193.802 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 60.706 197.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 62.23 193.802 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f76635fe-75e4-427f-9c48-a9c6b0857404")
-		)
-		(pin "1"
-			(uuid "49a1e762-a380-4711-9b2c-af110936181c")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:HT-CT62")
 		(at 200.66 91.44 0)
 		(unit 1)
@@ -13503,7 +12745,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 72.39 195.58 0)
+		(at 40.64 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13514,7 +12756,7 @@
 		(fields_autoplaced yes)
 		(uuid "e869d98d-ecf7-4e41-8805-ed9805f334ba")
 		(property "Reference" "D2"
-			(at 72.0726 199.39 90)
+			(at 40.3226 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13525,7 +12767,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5326 199.39 90)
+			(at 37.7826 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13536,7 +12778,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 72.39 195.58 0)
+			(at 40.64 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13547,7 +12789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 195.58 0)
+			(at 40.64 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13558,7 +12800,18 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 72.39 195.58 0)
+			(at 40.64 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13578,84 +12831,6 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 403.86 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea255dd0-b74d-41fa-b76e-509cf5b68ff1")
-		(property "Reference" "#PWR025"
-			(at 403.86 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 403.86 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 403.86 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 403.86 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 403.86 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c55f1459-46a5-4f52-a279-0fd974f6329e")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
