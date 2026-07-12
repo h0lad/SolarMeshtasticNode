@@ -11744,7 +11744,7 @@
 		)
 	)
 	(gr_text "For\nCable\nTie"
-		(at 139 96.7 0)
+		(at 138.95 87.45 0)
 		(layer "F.SilkS")
 		(uuid "27877731-738e-4e87-90e9-b6a8b55b3fa3")
 		(effects
