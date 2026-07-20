@@ -3487,7 +3487,7 @@
 	)
 	(rectangle
 		(start 107.95 184.15)
-		(end 166.37 236.22)
+		(end 198.12 236.22)
 		(stroke
 			(width 0.508)
 			(type dot)
@@ -3654,6 +3654,12 @@
 		(uuid "06f1bd52-83e3-4505-9372-45de6dbbbcb6")
 	)
 	(junction
+		(at 142.24 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096b832c-1bca-44ed-9584-b83c444647b8")
+	)
+	(junction
 		(at 25.4 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3678,6 +3684,12 @@
 		(uuid "45af54b4-eff8-42b5-aa77-95b8f0730382")
 	)
 	(junction
+		(at 158.75 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498fdefc-ddc5-4c0f-87de-db7a21793c40")
+	)
+	(junction
 		(at 52.07 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3688,12 +3700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63451d44-bb3b-469a-9163-6d7d00077270")
-	)
-	(junction
-		(at 142.24 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65157511-6c26-4364-bb52-a96ba6c996fc")
 	)
 	(junction
 		(at 83.82 130.81)
@@ -3977,6 +3983,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 219.71) (xy 158.75 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227bab33-aa15-4641-8a72-e63c619792a3")
+	)
+	(wire
+		(pts
 			(xy 311.15 92.71) (xy 312.42 92.71)
 		)
 		(stroke
@@ -4224,6 +4240,16 @@
 			(type default)
 		)
 		(uuid "5707e779-f643-44ba-b9f3-eb663ebe3b5c")
+	)
+	(wire
+		(pts
+			(xy 158.75 218.44) (xy 170.18 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575a251b-8331-4f34-ae4f-b3e707130dfb")
 	)
 	(wire
 		(pts
@@ -4827,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 218.44) (xy 144.78 218.44)
+			(xy 142.24 218.44) (xy 158.75 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5356,7 +5382,7 @@
 		(uuid "848815e4-6315-4ea7-b50e-841c03c6f352")
 	)
 	(label "ESP32_ENABLE"
-		(at 144.78 218.44 0)
+		(at 170.18 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7534,6 +7560,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 158.75 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d77b1fa-c207-4673-9d00-8aa161bd1edb")
+		(property "Reference" "C9"
+			(at 162.56 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 162.56 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 159.7152 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21f04f82-a45d-42eb-bece-720992e93e82")
+		)
+		(pin "1"
+			(uuid "35dfa17a-8634-4074-96cf-b8f62aea9e78")
+		)
+		(instances
+			(project "MeshtasticNode_BQ25185"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 87.63 180)
 		(unit 1)
@@ -9030,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 130.81 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12582,6 +12690,84 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a43572-4272-44f3-82c5-6bb19c0f0a97")
+		(property "Reference" "#PWR025"
+			(at 158.75 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acd996f7-48f5-49f9-9663-a2e602d8649e")
+		)
+		(instances
+			(project "MeshtasticNode_BQ25185"
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
