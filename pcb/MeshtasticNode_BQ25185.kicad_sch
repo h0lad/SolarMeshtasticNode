@@ -5215,7 +5215,7 @@
 		)
 		(uuid "3f434871-14c9-4e0a-a4a9-824216f334d7")
 	)
-	(label "+3V3"
+	(label "VLOAD"
 		(at 142.24 201.93 90)
 		(effects
 			(font
