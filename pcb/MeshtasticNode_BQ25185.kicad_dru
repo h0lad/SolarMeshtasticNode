@@ -1,0 +1,54 @@
+(version 1)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# JLCPCB 4-layer rules -- jlcpcb.com/capabilities/pcb-capabilities (2026-07)
+
+(rule "PTH pad hole-to-hole"
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'")
+	(constraint hole_to_hole (min 0.45mm)))
+
+# Absolute minimum; JLCPCB recommends 0.15+0.05..0.07
+(rule "PTH pad annular ring"
+	(condition "A.Pad_Type == 'Through-hole'")
+	(constraint annular_width (min 0.15mm)))
+
+# 0.35 recommended
+(rule "PTH hole to track"
+	(condition "A.Pad_Type == 'Through-hole' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.28mm)))
+
+(rule "PTH hole to copper, inner layers"
+	(layer inner)
+	(condition "A.Pad_Type == 'Through-hole'")
+	(constraint hole_clearance (min 0.3mm)))
+
+(rule "SMD pad-to-pad, different nets"
+	(condition "A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net")
+	(constraint clearance (min 0.15mm)))
+
+(rule "NPTH minimum hole size"
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_size (min 0.5mm)))
+
+# POFV is standard only on 6+ layers; unfilled via-in-pad wicks solder
+(rule "No via in SMD pad"
+	(condition "A.Type == 'Via' && B.Pad_Type == 'SMD'")
+	(constraint hole_clearance (min 0.2mm)))
+
+# Design margin, not a JLCPCB limit
+(rule "Hole to board edge"
+	(condition "A.Type == 'Via' || A.Pad_Type == 'Through-hole'")
+	(constraint edge_clearance (min 0.5mm)))
+
+# Silk layers only; fab/comment text may be thinner
+(rule "Silkscreen text minimums"
+	(layer outer)
+	(condition "A.Type == 'Text' && (A.Layer == 'F.Silkscreen' || A.Layer == 'B.Silkscreen')")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1.0mm)))
+
+# 3 mil allowed in multilayer BGA fanout -- scope via rule area:
+#(rule "BGA fanout area"
+#	(condition "A.insideArea('bga')")
+#	(constraint clearance (min 0.075mm))
+#	(constraint track_width (min 0.075mm)))
