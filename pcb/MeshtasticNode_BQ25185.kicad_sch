@@ -2329,7 +2329,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C723793"
+		(property "LCSC Part" "C723792"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6677,7 +6677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 140.0048 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10430,7 +10430,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C723793"
+		(property "LCSC Part" "C723792"
 			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
