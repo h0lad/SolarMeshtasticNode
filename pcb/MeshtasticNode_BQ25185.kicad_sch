@@ -5137,7 +5137,7 @@
 		)
 		(uuid "ff979a48-1b28-47d8-88f3-7f9de5cc1356")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 118.11 144.78 270)
 		(effects
 			(font
@@ -5267,7 +5267,7 @@
 		)
 		(uuid "40687d86-94f8-4d65-b8bc-57c613d3401c")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 59.69 204.47 0)
 		(effects
 			(font
@@ -5357,7 +5357,7 @@
 		)
 		(uuid "7032f7d5-cb96-4b93-8340-a63b322df221")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 118.11 171.45 270)
 		(effects
 			(font
@@ -5377,7 +5377,7 @@
 		)
 		(uuid "8242fa7d-8141-49b8-a867-870ef6edf75c")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 313.69 120.65 270)
 		(effects
 			(font
@@ -5417,7 +5417,7 @@
 		)
 		(uuid "8925a26d-3fc8-445c-bc3f-3724fb88236d")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 83.82 123.19 90)
 		(effects
 			(font
@@ -5437,7 +5437,7 @@
 		)
 		(uuid "99b00b00-9706-4426-adb5-6e2427375a6b")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 143.51 156.21 270)
 		(effects
 			(font
@@ -5447,7 +5447,7 @@
 		)
 		(uuid "99d8668c-7f92-4465-9f73-ba523da36220")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 151.13 156.21 270)
 		(effects
 			(font
@@ -5467,7 +5467,7 @@
 		)
 		(uuid "9fed875b-b469-4bb5-8a27-eb32b2e4bd8b")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 200.66 68.58 90)
 		(effects
 			(font
@@ -5517,7 +5517,7 @@
 		)
 		(uuid "a8246fd9-4bd4-47d8-b010-266a742052a5")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 59.69 229.87 0)
 		(effects
 			(font
@@ -5547,7 +5547,7 @@
 		)
 		(uuid "b0c3bccc-2e30-41a9-be93-474942b9e07f")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 220.98 86.36 0)
 		(effects
 			(font
@@ -5647,7 +5647,7 @@
 		)
 		(uuid "e0c4ad80-852a-4879-a86f-3c383de52537")
 	)
-	(label "+3V3"
+	(label "+3V0"
 		(at 81.28 170.18 90)
 		(effects
 			(font
@@ -6131,14 +6131,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 147.574 25.146 0)
+		(property "Value" "+3V0"
+			(at 149.86 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
