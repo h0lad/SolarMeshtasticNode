@@ -3790,10 +3790,6 @@
 		(uuid "ba63b9af-13ac-4bd4-ba31-0fc8eda31ca5")
 	)
 	(no_connect
-		(at 218.44 86.36)
-		(uuid "bca1dfab-e96d-4fe1-a2fd-e5fbbd17027f")
-	)
-	(no_connect
 		(at 182.88 86.36)
 		(uuid "dcf59f6a-3988-41f7-b6f7-7fd4a5cf08bf")
 	)
@@ -4590,6 +4586,16 @@
 			(type default)
 		)
 		(uuid "964ad472-c2cf-4dac-bb6f-b29c7bf06ec8")
+	)
+	(wire
+		(pts
+			(xy 218.44 86.36) (xy 220.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3f5158-dcf3-4bf3-9956-ecea11120a30")
 	)
 	(wire
 		(pts
@@ -5540,6 +5546,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0c3bccc-2e30-41a9-be93-474942b9e07f")
+	)
+	(label "+3V3"
+		(at 220.98 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f98cb2-500d-40d7-aa4b-b7c58216d58a")
 	)
 	(label "I2C_SDA"
 		(at 120.65 146.05 270)
