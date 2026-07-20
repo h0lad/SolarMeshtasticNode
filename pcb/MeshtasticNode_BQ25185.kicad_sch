@@ -3474,7 +3474,7 @@
 		(uuid "d372aa94-5f94-4c1b-b4b2-334890138ac5")
 	)
 	(rectangle
-		(start 257.81 19.05)
+		(start 257.81 13.97)
 		(end 342.9 66.04)
 		(stroke
 			(width 0.508)
@@ -3539,7 +3539,7 @@
 	)
 	(text "Voltage Measurement"
 		(exclude_from_sim no)
-		(at 268.986 22.098 0)
+		(at 276.352 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3627,9 +3627,9 @@
 		)
 		(uuid "977591d5-2358-49a2-8cb3-10e0e38c9c36")
 	)
-	(text "Take Care: Solar goes \nup to 24V! A 1:1 divider\n will not be enough here."
+	(text "VBUS divider: R13=820k, R14=91k\nVout = VBUS * 91/(820+91)\nRange: 0-24V -> 0-2.4V\nMax 2.44V (1% tol) < 2.5V ref\nDrain: 26uA @24V"
 		(exclude_from_sim no)
-		(at 328.422 55.626 0)
+		(at 321.056 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5779,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "91k"
 			(at 314.96 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7213,7 +7213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "820k"
 			(at 314.96 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
