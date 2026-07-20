@@ -13132,7 +13132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "360"
 			(at 48.26 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
