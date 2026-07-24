@@ -12,7 +12,7 @@ Features of this PCB
  - 1A maximum charge current
  - Pseudo-MPPT (VINDPM)
  - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar. During sunrise and sunset it can mix the sources.)
- - Low leakage load switch [TI TPS22917DBV](https://www.ti.com/lit/ds/symlink/tps22917.pdf) to switch off entire 3.0V if battery voltage drops too low (charger stays alive)
+ - Low leakage load switch [TI TPS22917DBV](https://www.ti.com/lit/ds/symlink/tps22917.pdf) to switch off entire 3.0V rail if battery voltage drops too low (charger stays alive)
  - Two ADC signals for getting VLOAD and  VBUS voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A30MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HEERMICR-HE9073A30MR_C723792.pdf)
