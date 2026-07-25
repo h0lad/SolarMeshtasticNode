@@ -20,6 +20,18 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
+## HT-CT62 Pin Assignment
+
+| Pin | GPIO | Connected to | Description |
+|-----|------|-------------|-------------|
+| 8 | GPIO2 | R8 (10kΩ pull-up to +3V0) | Boot strapping pin |
+| 9 | GPIO1 | R11 (1MΩ), R12 (1MΩ), C14 (100nF) | ADC_VLOAD — load voltage measurement (1:2 divider) |
+| 10 | GPIO0 | R13 (820kΩ), R14 (91kΩ), C15 (100nF) | ADC_VBUS — solar panel voltage measurement (~1:10 divider) |
+| 16 | GPIO8 | R1 (10kΩ pull-up to +3V0) | Boot strapping pin |
+| 17 | GPIO18 | J5, J7 (JST-PH 1x4), R2 (10kΩ pull-up) | I2C SCL (expansion connectors) |
+| 18 | GPIO19 | J5, J7 (JST-PH 1x4), R9 (10kΩ pull-up) | I2C SDA (expansion connectors) |
+| 19 | GPIO20 | J4 (JST-PH 1x4) | UART RX (serial/debug) |
+| 20 | GPIO21 | J4 (JST-PH 1x4) | UART TX (serial/debug) |
 
 **Info** 
 
