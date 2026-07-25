@@ -13175,7 +13175,7 @@
 		)
 	)
 	(gr_text "LiPo"
-		(at 139.7 112.5 0)
+		(at 139.575262 112.5 0)
 		(layer "F.SilkS")
 		(uuid "baf0395f-2495-4849-8cb8-3995334937f6")
 		(effects
