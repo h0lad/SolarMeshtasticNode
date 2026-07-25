@@ -25,8 +25,8 @@ Combined with a solar panel this device can be placed in remote areas to cover a
 | Pin | GPIO | Description |
 |-----|------|-------------|
 | 8 | GPIO2 | Boot strapping pin (R8 10kΩ pull-up to +3V0) |
-| 9 | GPIO1 | ADC_VLOAD — load voltage measurement (1:2 divider via R11, R12, C14) |
-| 10 | GPIO0 | ADC_VBUS — solar panel voltage measurement (~1:10 divider via R13, R14, C15) |
+| 9 | GPIO1 | ADC_VLOAD - load voltage measurement (1:2 divider via R11, R12, C14) |
+| 10 | GPIO0 | ADC_VBUS - solar panel voltage measurement (~1:10 divider via R13, R14, C15) |
 | 15 | GPIO9 | Bootloader mode switch (SW1 via R6 1kΩ to +3V0) |
 | 16 | GPIO8 | Boot strapping pin (R1 10kΩ pull-up to +3V0) |
 | 17 | GPIO18 | I2C SCL (J5, J7 JST-PH 1x4, R2 10kΩ pull-up) |
