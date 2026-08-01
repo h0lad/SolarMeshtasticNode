@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
