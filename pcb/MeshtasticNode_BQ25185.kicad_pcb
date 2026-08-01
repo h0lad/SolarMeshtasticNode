@@ -8922,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ24A"
+		(property "Value" "SMAJ15A"
 			(at 0 2.6 0)
 			(layer "F.Fab")
 			(hide yes)
