@@ -13655,7 +13655,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "20260801, V5.0.0"
+	(gr_text "20260801, V4.0.0"
 		(at 118.5 120.5 0)
 		(layer "F.SilkS")
 		(uuid "7ace7693-0825-4377-8c09-32bbcc5712a5")
