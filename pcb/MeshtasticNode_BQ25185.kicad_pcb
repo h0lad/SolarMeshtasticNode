@@ -12243,7 +12243,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
