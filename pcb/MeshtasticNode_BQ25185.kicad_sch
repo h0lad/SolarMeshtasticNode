@@ -9144,7 +9144,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ24A"
+		(property "Value" "SMAJ15A"
 			(at 27.94 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
