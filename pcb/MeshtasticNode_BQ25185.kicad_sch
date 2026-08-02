@@ -4177,6 +4177,12 @@
 		(uuid "33d79234-9427-4593-84bb-e4a9bdb5b56a")
 	)
 	(junction
+		(at 177.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3838dfe2-65d9-4dc2-a2af-a10e5802d76c")
+	)
+	(junction
 		(at 85.09 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4401,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "096ad0ce-590a-4c38-8d45-a95233d5fe9d")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b33cf74-2d16-4cf6-b9de-70c28c99ccdf")
 	)
 	(wire
 		(pts
@@ -4994,16 +5010,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 173.99 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70503156-a2c6-432b-8f40-e8123bec43a1")
-	)
-	(wire
-		(pts
 			(xy 312.42 41.91) (xy 312.42 45.72)
 		)
 		(stroke
@@ -5021,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "7330aba1-6a06-46fc-a9b4-6d7047ddebdb")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74995fea-9e1f-4183-bb09-b0097194612f")
 	)
 	(wire
 		(pts
@@ -5464,6 +5480,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c058bc14-2f7d-43fe-a7eb-8e75f6c01d4a")
+	)
+	(wire
+		(pts
 			(xy 146.05 110.49) (xy 146.05 114.3)
 		)
 		(stroke
@@ -5471,16 +5497,6 @@
 			(type default)
 		)
 		(uuid "c13b6d18-5cfb-42d6-a9cc-008e8bb4ee60")
-	)
-	(wire
-		(pts
-			(xy 186.69 121.92) (xy 190.5 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61019f4-b9ec-4abb-931b-22096539679b")
 	)
 	(wire
 		(pts
@@ -5744,6 +5760,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 116.84) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73649f5-f559-45a4-89fc-b2a026ace1b0")
+	)
+	(wire
+		(pts
 			(xy 190.5 106.68) (xy 190.5 110.49)
 		)
 		(stroke
@@ -5794,6 +5820,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 114.3) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f18682-3160-4b45-a78a-a88f79879c06")
+	)
+	(wire
+		(pts
 			(xy 190.5 118.11) (xy 190.5 121.92)
 		)
 		(stroke
@@ -5821,6 +5857,16 @@
 			(type default)
 		)
 		(uuid "f334c0f1-7a34-4f95-9f7f-ea1c706751f6")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.3) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37707da-5a4f-4af7-9dc7-23b9d582f12a")
 	)
 	(wire
 		(pts
@@ -6273,7 +6319,7 @@
 		(uuid "b0c3bccc-2e30-41a9-be93-474942b9e07f")
 	)
 	(label "VLOAD"
-		(at 186.69 121.92 180)
+		(at 177.8 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13352,84 +13398,6 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 113.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1d117ad-ccd4-4bab-968f-742fe5e5bcda")
-		(property "Reference" "#PWR02"
-			(at 173.99 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ef753df-876f-4802-b425-b31ac3fa203f")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
