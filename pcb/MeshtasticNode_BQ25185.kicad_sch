@@ -1107,160 +1107,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ5.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ5.0A"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMAJ5.0A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ5.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4189,12 +4035,6 @@
 		(uuid "45af54b4-eff8-42b5-aa77-95b8f0730382")
 	)
 	(junction
-		(at 24.13 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd2c930-8cbe-4ac5-8d17-296b00e8ce24")
-	)
-	(junction
 		(at 256.54 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4277,12 +4117,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e4fd19-92ed-46cb-a872-16cd4d47ab33")
-	)
-	(junction
-		(at 31.75 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de1d5e70-c99f-48bb-93f9-4d1087aac962")
 	)
 	(junction
 		(at 130.81 123.19)
@@ -4920,16 +4754,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 123.19) (xy 31.75 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63fcb590-960a-4c3c-98ed-f7946cf51fe3")
-	)
-	(wire
-		(pts
 			(xy 29.21 123.19) (xy 29.21 127)
 		)
 		(stroke
@@ -5127,16 +4951,6 @@
 			(type default)
 		)
 		(uuid "84b9cfb6-f44e-41b4-abbd-3f403f9c4c87")
-	)
-	(wire
-		(pts
-			(xy 24.13 119.38) (xy 24.13 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e2f129-0c01-48c3-b7dd-ba39f3ecf0cf")
 	)
 	(wire
 		(pts
@@ -5570,16 +5384,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 119.38) (xy 31.75 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf621de0-453b-469b-a3a7-e7250055ad14")
-	)
-	(wire
-		(pts
 			(xy 29.21 149.86) (xy 31.75 149.86)
 		)
 		(stroke
@@ -5840,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 123.19) (xy 29.21 123.19)
+			(xy 29.21 123.19) (xy 33.02 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9007,86 +8811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 27.94 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46db334c-5751-4f80-a776-67e1d8afb4b2")
-		(property "Reference" "D1"
-			(at 27.94 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 27.94 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 27.94 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 29.21 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 27.94 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44cc5549-7129-455b-a189-03f74c8e582d")
-		)
-		(pin "2"
-			(uuid "25bf3508-a712-494a-bd54-706e78828696")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 48.26 219.71 0)
 		(unit 1)
@@ -9190,7 +8914,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ15A"
+		(property "Value" "SMAJ14A"
 			(at 27.94 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
