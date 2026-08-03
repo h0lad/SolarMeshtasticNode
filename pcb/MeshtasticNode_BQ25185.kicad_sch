@@ -4165,6 +4165,10 @@
 		(uuid "ba63b9af-13ac-4bd4-ba31-0fc8eda31ca5")
 	)
 	(no_connect
+		(at 196.85 53.34)
+		(uuid "bacd64c9-53b2-4c46-a222-de2f907dccba")
+	)
+	(no_connect
 		(at 161.29 58.42)
 		(uuid "e3df3979-b150-4d6e-9b59-c0aa701b9602")
 	)
@@ -5104,16 +5108,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 53.34) (xy 228.6 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a3f5158-dcf3-4bf3-9956-ecea11120a30")
-	)
-	(wire
-		(pts
 			(xy 194.31 30.48) (xy 194.31 33.02)
 		)
 		(stroke
@@ -5391,16 +5385,6 @@
 			(type default)
 		)
 		(uuid "d0b079bc-43dd-4f1a-ae15-b46e0816ec3b")
-	)
-	(wire
-		(pts
-			(xy 236.22 53.34) (xy 240.03 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f092dc-78e2-4419-8613-9c2a1a5830a9")
 	)
 	(wire
 		(pts
@@ -8973,84 +8957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
-		(at 240.03 53.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "529a2001-8cb0-4afa-893b-4e865346a646")
-		(property "Reference" "#PWR029"
-			(at 236.22 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V0"
-			(at 240.03 51.816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 240.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a12a765-4f19-45ce-aa36-3b0949e4b37f")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 24.13 149.86 270)
 		(unit 1)
@@ -10002,85 +9908,6 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 53.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f9835ca-a513-48c4-8f0d-a5cd79a6322c")
-		(property "Reference" "R1"
-			(at 230.886 51.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 231.394 55.626 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 232.41 51.562 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ae0cf53d-f844-473f-a189-63e080f7c816")
-		)
-		(pin "1"
-			(uuid "8111aba0-b6bb-43d4-bcf9-4c0a3a1a8bd8")
-		)
-		(instances
-			(project "MeshtasticNode_BQ25185"
-				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
-					(reference "R1")
 					(unit 1)
 				)
 			)
